@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <div class="container">
+        <!-- <a class="navbar-brand" href="#">Me</a> -->
+        <a class="navbar-brand" href="#">
+          <img src="img/d.png" alt="img/d.png" width="30" height="30">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill">Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#study">Study</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid bg-light pt-5 home" id="home">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-md-5 d-flex justify-content-center mb-5">
+                    <div class="frame bg-dark justify-content-center">
+                        <img class="img-fluid profile" src="img/profile.png" alt="img/profile.png">
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex mb-5">
+                  <div class="wrap">
+                    <h1 id="tagline"></h1>
+                    <p id="description"></p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark skill" id="skill">
+      <h2>My skill</h2>
+      <div class="container">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body d-flex justify-content-center align-items-center">
+                  <div class="wrap">
+                    <div class="frame-card bg-light mb-3 d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/html.png" alt="img/html.png">
+                    </div>
+                    <h3 class="text-center">html</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body d-flex justify-content-center align-items-center">
+                  <div class="wrap">
+                    <div class="frame-card bg-light mb-3 d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/css-3.png" alt="img/css-3.png">
+                    </div>
+                    <h3 class="text-center">css</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body d-flex justify-content-center align-items-center">
+                  <div class="wrap">
+                    <div class="frame-card bg-light mb-3 d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/js.png" alt="img/js.png">
+                    </div>
+                    <h3 class="text-center">js</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body d-flex justify-content-center align-items-center">
+                  <div class="wrap">
+                    <div class="frame-card bg-light mb-3 d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/php.png" alt="img/php.png">
+                    </div>
+                    <h3 class="text-center">php</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body d-flex justify-content-center align-items-center">
+                  <div class="wrap">
+                    <div class="frame-card bg-light mb-3 d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/codeigniter.webp" alt="img/codeigniter.webp">
+                    </div>
+                    <h3 class="text-center">ci</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body d-flex justify-content-center align-items-center">
+                  <div class="wrap">
+                    <div class="frame-card bg-light mb-3 d-flex justify-content-center align-items-center">
+                      <img class="img-fluid" src="img/mysql.png" alt="img/mysql.png">
+                    </div>
+                    <h3 class="text-center">mysql</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <!-- <div class="swiper-pagination"></div> -->
+        
+          <!-- If we need navigation buttons -->
+          <!-- <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div> -->
+        
+          <!-- If we need scrollbar -->
+          <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-light study" id="study">
+      <div class="container p-3">
+        <div class="row d-flex align-self-center">
+          <h2 class="text-center mb-5">My study</h2>
+          <div class="d-lg-none d-xl-none d-xxl-none col-12 d-flex justify-content-center align-items-center">
+            <img class="img-fluid" src="img/Learning-bro.png" alt="img/Learning-bro.png" width="450px">
+          </div>
+          <div class="col-lg-6">
+            <ul class="timeline-study">
+              <li class="mb-3 item-study">
+                <div class="row bg-dark p-3">
+                  <div class="col-md-12">
+                    <h5>2006 - 2012</h5>
+                    <h6>SDN Geluran 1 Taman</h6>
+                  </div>
+                </div>
+              </li>
+              <li class="mb-3 item-study">
+                <div class="row bg-dark p-3">
+                  <div class="col-md-12">
+                    <h5>2012 - 2015</h5>
+                    <h6>SMP Ulul albab Bebekan</h6>
+                  </div>
+                </div>
+              </li>
+              <li class="mb-3 item-study">
+                <div class="row bg-dark p-3">
+                  <div class="col-md-12">
+                    <h5>2015 - 2018</h5>
+                    <h6>SMA Muhammadiyah 1 Taman</h6>
+                  </div>
+                </div>
+              </li>
+              <li class="mb-3 item-study">
+                <div class="row bg-dark p-3">
+                  <div class="col-md-12">
+                    <h5>2018 - 2022</h5>
+                    <h6>Universitas dinamika</h6>
+                    <small>D3 Sistem Informasi</small>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="d-none d-md-none d-lg-block d-xl-block d-xxl-block col-lg-6 d-flex justify-content-center align-items-center">
+            <img class="img-fluid" src="img/Learning-bro.png" alt="img/Learning-bro.png" width="500px">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-dark experience" id="experience">
+      <div class="container p-3">
+        <div class="row d-flex align-self-center">
+          <h2 class="text-center text-white mb-5">My experience</h2>
+          <div class="col-lg-6 d-flex justify-content-center align-items-center">
+            <img class="img-fluid" src="img/Task-bro.png" alt="img/Task-bro.png" width="500px">
+          </div>
+          <div class="col-lg-6">
+            <ul class="timeline-experience">
+              <li class="mb-3 item-experience">
+                <div class="row bg-light p-3">
+                  <div class="col-md-12">
+                    <h4>Freelance</h4>
+                    <h5>Aug 2021 - Dec 2021</h5>
+                    <h6>Airlangga international conference web development</h6>
+                  </div>
+                </div>
+              </li>
+              <li class="mb-3 item-experience">
+                <div class="row bg-light p-3">
+                  <div class="col-md-12">
+                    <h4>Freelance</h4>
+                    <h5>Nov 2022 - Dec 2022</h5>
+                    <h6>Glorindo group web development</h6>
+                  </div>
+                </div>
+              </li>
+              <li class="mb-3 item-experience">
+                <div class="row bg-light p-3">
+                  <div class="col-md-12">
+                    <h4>Freelance</h4>
+                    <h5>Dec 2022 - Feb 2023</h5>
+                    <h6>SIMANIS web development</h6>
+                  </div>
+                </div>
+              </li>
+              <li class="mb-3 item-experience">
+                <div class="row bg-light p-3">
+                  <div class="col-md-12">
+                    <h4>Eiger sidoarjo</h4>
+                    <h5>Apr 2022 - May 2022</h5>
+                    <h6>Retail assistant (part time)</h6>
+                  </div>
+                </div>
+              </li>
+              <li class="mb-3 item-experience">
+                <div class="row bg-light p-3">
+                  <div class="col-md-12">
+                    <h4>Madina mentari teknologi</h4>
+                    <h5>Jun 2022 - Now</h5>
+                    <h6>Website developer</h6>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script>
+      $(function(){
+
+        const swiper = new Swiper('.swiper', {
+          // Optional parameters
+          direction: 'horizontal',
+          loop: true,
+          slidesPerView: 1,
+          spaceBetween: 2,
+          updateOnWindowRezise: true,
+          // effect: 'cards',
+
+          autoplay: {
+            delay: 3000,
+          },
+
+          breakpoints: {
+
+            500:{
+  
+              slidesPerView: 2,
+              spaceBetween: 2,
+              // effect: 'slide'
+  
+            },
+
+            900: {
+
+              slidesPerView: 3,
+              spaceBetween: 2,
+              // effect: 'slide'
+
+            }
+
+          },
+
+          // If we need pagination
+          // pagination: {
+          //   el: '.swiper-pagination',
+          // },
+
+          // Navigation arrows
+          // navigation: {
+          //   nextEl: '.swiper-button-next',
+          //   prevEl: '.swiper-button-prev',
+          // },
+
+          // And if we need scrollbar
+          // scrollbar: {
+          //   el: '.swiper-scrollbar',
+          // },
+        });
+      })
+
+        const tagline = `Im a programmer` 
+        const desc = `My name is Muhammad Dhika Firmansyah. Im very intrest with technology development in the world, specially on a website development. With the abilities that I currently have, I hope to be able to help people develop their business digitally.`
+
+        let jumTag = 0;
+        let jumDesc = 0;
+ 
+        setTimeout(typingTag, 3300)
+        setTimeout(typingDesc, 4200)
+        
+        function typingDesc()
+        {
+
+          if(jumDesc < desc.length)
+          {
+            document.querySelector('#description').innerHTML += desc.charAt(jumDesc)
+          }
+          jumDesc++
+          
+          setTimeout(typingDesc, 50)
+
+        }
+
+        function typingTag()
+        {
+
+          if(jumTag < tagline.length)
+          {
+            document.querySelector('#tagline').innerHTML += tagline.charAt(jumTag)
+          }
+          jumTag++;
+
+          setTimeout(typingTag, 50)
+
+        }
+
+        setTimeout(function(){
+
+            let element = document.createElement('img');
+
+            element.className = 'img-fluid hi'
+            element.setAttribute('src', 'img/hi.png');
+            
+            document.querySelector('.frame').append(element);
+        }, 3000)
+    </script>
+</body>
+</html>
